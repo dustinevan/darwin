@@ -15,6 +15,7 @@ https://flywaydb.org/documentation/faq#rollback
 https://flywaydb.org/documentation/faq#hot-fixes
 
 Given this file:
+
 	-- Version: 1.1
 	-- Description: Create table users
 	CREATE TABLE users (
@@ -50,7 +51,7 @@ You can write this code:
 		"database/sql"
 		"log"
 
-		"github.com/ardanlabs/darwin"
+		"github.com/dustinevan/darwin"
 		_ "github.com/go-sql-driver/mysql"
 	)
 
